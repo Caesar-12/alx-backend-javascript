@@ -1,3 +1,3 @@
-export default function displayMessage (message) {
-  console.log(message)
+export default function displayMessage (messages) {
+  console.log(messages)
 }

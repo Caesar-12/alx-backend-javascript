@@ -10,7 +10,9 @@ function countStudents(path) {
   const rows = [];
   const details = {};
   for (const row of data.split('\n').slice(1)) {
-    rows.push(row);
+    if (row) {
+      rows.push(row);
+    }
   }
   for (const students of rows) {
     const fName = students.split(',')[0];

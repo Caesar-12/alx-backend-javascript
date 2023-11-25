@@ -1,4 +1,4 @@
-const calculateNumber = require("./1-calcul.js");
+const calculateNumber = require("./2-calcul_chai.js");
 const { expect } = require('chai');
 
 expect(calculateNumber('SUM', 1.2, 3.4)).to.equal(4);

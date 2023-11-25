@@ -12,5 +12,4 @@ function calculateNumber (type, a, b) {
   
 }
 
-console.log(calculateNumber('DIVIDE', 7.5, 0));
 module.exports = calculateNumber;

@@ -1,5 +1,5 @@
 export function uploadPhoto() {
-    return Promise.resolve({
+    return Promise.reject({
       status: 200,
       body: 'photo-profile-1',
     });

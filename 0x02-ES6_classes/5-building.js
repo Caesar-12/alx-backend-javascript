@@ -17,4 +17,8 @@ export default class Building {
       console.error('TypeError: Sqft must be a number');
     }
   }
+
+  evacuationWarningMessage() {
+    throw new Error('evacuationWarningMessage method must be implemented in the subclass.');
+  }
 }

@@ -1,5 +1,8 @@
-import guardrail from './9-try';
-import divideFunction from './8-try';
+import asyncUploadUser from "./100-await";
 
-console.log(guardrail(() => { return divideFunction(10, 2)}));
-console.log(guardrail(() => { return divideFunction(10, 0)}));
+const test = async () => {
+    const value = await asyncUploadUser();
+    console.log(value);
+};
+
+test();

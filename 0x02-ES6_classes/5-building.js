@@ -17,5 +17,4 @@ export default class Building {
       console.error('TypeError: Sqft must be a number');
     }
   }
-
 }

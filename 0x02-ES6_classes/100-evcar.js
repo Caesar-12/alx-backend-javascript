@@ -1,4 +1,4 @@
-import Car from "./10-car";
+import Car from './10-car';
 
 export default class EVcar extends Car {
   constructor(brand, motor, color, range) {
@@ -11,6 +11,6 @@ export default class EVcar extends Car {
   }
 
   cloneCar() {
-    return new Car;
+    return new Car();
   }
 }

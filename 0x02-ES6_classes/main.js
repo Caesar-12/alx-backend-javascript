@@ -1,7 +1,20 @@
-import EVCar from './100-evcar.js';
+import HolbertonCourse from "./2-hbtn_course.js";
 
-const ec1 = new EVCar("Tesla", "Turbo", "Red", "250");
-console.log(ec1);
+const c1 = new HolbertonCourse("ES6", 1, ["Bob", "Jane"])
+console.log(c1.name);
+c1.name = "Python 101";
+console.log(c1);
 
-const ec2 = ec1.cloneCar();
-console.log(ec2);
+try {
+    c1.name = 12;
+} 
+catch(err) {
+    console.log(err);
+}
+
+try {
+    const c2 = new HolbertonCourse("ES6", "1", ["Bob", "Jane"]);
+}
+catch(err) {
+    console.log(err);
+}
